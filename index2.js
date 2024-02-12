@@ -133,7 +133,7 @@ for(let item of perguntas) {
 
 
 /* 
-outra maneira ded calcular os acertos 
+outra maneira de calcular os acertos 
 
    if(dt.querySelector('input').value == item.correta) {
           n++
@@ -143,14 +143,3 @@ outra maneira ded calcular os acertos
         res.textContent = (n)
 
 /*
-
-/*
-
-dt.querySelector('input').onchange = (event) => {
-  const estacerta = event.target.value == item.correta;
-  if(estacerta) {
-    alert(item.correta)
-  }
-}
-
-*/
