@@ -100,6 +100,7 @@ const corretas = new Set()
 const divAcertos = document.querySelector('#div-acertos span')
 
 
+
 for(let item of perguntas) {
     const temItem = template.content.cloneNode(true)
     temItem.querySelector('h3').textContent = item.pergunta;

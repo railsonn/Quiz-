@@ -51,6 +51,7 @@ header h1 {
     overflow: hidden;
 }
 
+
 .quiz-item h3:before {
     counter-increment: quiz-item;
     content: counter(quiz-item);
